@@ -29,7 +29,7 @@ fun App() {
                 color = Color(red = 0.8f, green = 0.7f, blue = 0.6f)
             )
             Button(onClick = { showContent = !showContent }) {
-                Text("Click me!")
+                Text("Click me now!")
             }
             AnimatedVisibility(showContent) {
                 val greeting = remember { Greeting().greet() }
